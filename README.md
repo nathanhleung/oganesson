@@ -8,7 +8,7 @@ In progress
 
 Parses formula
 
-Example output:
+`parseInitial('Ba(NO3)2');`
 
 ```
 {
