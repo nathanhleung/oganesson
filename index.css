@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  font-family: Lato;
+  height: calc(100% - 100px);
+  width: calc(100% - 100px);
+  padding: 50px;
+  background: #f8f8f8;
+  color: #333;
+}
+
+label {
+  display: block;
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+
+button, input {
+  font-family: Lato;
+  font-size: 1.5rem;
+  padding: 15px;
+  border: none;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 15px;
+  background: transparent;
+  border: 1px solid #aaa;
+  margin-left: 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #333;
+  color: #333;
+  transition: all 0.3s;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+input {
+  box-shadow: 0px 2px 0px #ccc;
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+  box-shadow: 0px 2px 0px #888;
+}
+
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+  transition: all 0.3s;
+}

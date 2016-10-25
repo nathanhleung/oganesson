@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Molar Mass Calculator</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+    <link rel='stylesheet' href='index.css'>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Molar Mass Calculator</h1>
+      <form id="atoms">
+        <p>Use '.' to indicate hydrated compound, e.g. (NH4)2Fe(SO4)2.6H2O</p>
+        <label>Formula</label>
+        <input type="text" name="formula" placeholder='Ba(NO3)2'>
+        <button type="submit">Submit</button>
+      </form>
+      <pre id="result"></pre>
+      <br>
+      <p>
+        by <a href="https://github.com/nathanhleung/">nathanhleung</a> |
+        source on <a href="https://github.com/nathanhleung/chemistry">github</a>
+      </p>
+    </div>
+    <script src="build/bundle.js"></script>
+  </body>
+</html>
