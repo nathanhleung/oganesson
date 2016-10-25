@@ -45,3 +45,6 @@ Example output:
   ]
 }
 ```
+
+## todo
+- be careful with them while loops!
