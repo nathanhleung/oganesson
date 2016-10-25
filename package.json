@@ -4,13 +4,18 @@
   "description": "chemical parser",
   "main": "index.js",
   "scripts": {
-    "babel": "babel src/ --out-dir lib/",
+    "webpack": "webpack --config example/webpack.config.babel.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nathanhleung",
   "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.16.0",
-    "babel-preset-latest": "^6.16.0"
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.16.0",
+    "json-loader": "^0.5.4",
+    "periodic-table": "0.0.6",
+    "webpack": "^1.13.2"
   }
 }
