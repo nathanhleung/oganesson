@@ -3,6 +3,18 @@ A parser for chemical formula strings.
 
 ## API
 
+```js
+// ES6
+import { tokenize, countElements, getMass } from 'oganesson';
+
+tokenize(<formula>)
+
+// ES5
+const oganesson = require('oganesson');
+
+oganesson.tokenize(<formula>)
+```
+
 ### `tokenize(formula)`
 Tokenizes the given formula.
 
