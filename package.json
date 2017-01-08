@@ -1,11 +1,12 @@
 {
-  "name": "chemistry",
+  "name": "oganesson",
   "version": "1.0.0",
-  "description": "chemical parser",
-  "main": "index.js",
+  "description": "A parser for chemical formula strings.",
+  "main": "lib/index.js",
   "scripts": {
-    "webpack": "webpack --config example/webpack.config.babel.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "babel": "babel src -d lib",
+    "example": "webpack --config example/webpack.config.babel.js",
+    "version": "npm run babel"
   },
   "author": "nathanhleung",
   "license": "MIT",

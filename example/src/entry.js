@@ -1,5 +1,5 @@
 import { tokenize, countElements, getMass } from '../../src/index';
- 
+
 /**
  * Get elements data
  */
@@ -11,10 +11,14 @@ function onSubmit(e) {
   const resultEl = document.getElementById('result');
   const tokens = tokenize(e.target.formula.value);
   const counts = countElements(tokens);
-  
+
 	resultEl.innerHTML =
 	  `Counts: ${JSON.stringify(counts)}\n` +
 	  `Mass: ${getMass(counts)}`
 }
 
-
+window.Oganesson = {
+  tokenize,
+  countElements,
+  getMass,
+};
