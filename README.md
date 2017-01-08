@@ -1,6 +1,8 @@
 # Oganesson [![npm version](https://badge.fury.io/js/oganesson.svg)](https://www.npmjs.com/package/oganesson) [![Dependency Status](https://david-dm.org/nathanhleung/oganesson.svg)](https://david-dm.org/nathanhleung/oganesson)
 A parser for chemical formula strings.
 
+An demo of this package in action can be found here: [Molar Mass Calculator](https://xyz.nathanhleung.com/oganesson/)
+
 ## Quick Start
 
 ```js
@@ -22,6 +24,7 @@ Tokenizes the given formula.
 
 #### Arguments
 * formula _(String)_: The chemical formula to tokenize.
+
   > Note: The formula does not necessarily have to be valid.
 
 #### Returns
@@ -106,6 +109,7 @@ Counts the number of each element in the given tokens.
 
 #### Arguments
 * tokens _(Array)_: An array of tokens
+
   > Note: The tokens should be in the format that `tokenize` returns.
 
 #### Returns
@@ -130,6 +134,7 @@ Gets the total mass of the given counts.
 
 #### Arguments
 * counts _(Object)_: The counts of each element.
+
   > Note: The counts should be in the format that `countElements` returns.
 
 #### Returns
@@ -147,3 +152,6 @@ getMass(countElements(tokenize('Ba(NO3)2')));
 
 ## Todo
 - Throw an error in either `tokenize` or `countElements` when the formula is invalid.
+
+## License
+[MIT](https://github.com/nathanhleung/oganesson/blob/master/LICENSE)
