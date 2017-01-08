@@ -1,7 +1,7 @@
 # Oganesson [![npm version](https://badge.fury.io/js/oganesson.svg)](https://www.npmjs.com/package/oganesson) [![Dependency Status](https://david-dm.org/nathanhleung/oganesson.svg)](https://david-dm.org/nathanhleung/oganesson)
 A parser for chemical formula strings.
 
-## API
+## Quick Start
 
 ```js
 // ES6
@@ -14,6 +14,8 @@ const oganesson = require('oganesson');
 
 oganesson.tokenize(<formula>)
 ```
+
+## API
 
 ### `tokenize(formula)`
 Tokenizes the given formula.
